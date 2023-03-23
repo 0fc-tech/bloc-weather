@@ -6,7 +6,8 @@ abstract class WeatherEvent {
 }
 
 class NewCityEvent extends WeatherEvent{
-  String city;
+  final String city;
 
   NewCityEvent(this.city);
 }
+
